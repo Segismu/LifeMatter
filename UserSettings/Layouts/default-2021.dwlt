@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 847
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2083
+  controlID: 83
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Life Matter
+  m_LastLoadedLayoutName: 
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2177
+  controlID: 105
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2178
+  controlID: 111
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,9 +363,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: dc68ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 0201fdfffa37fdff705bffffc865fffff267ffff826fffff08bdffff60f2ffff
+      m_ExpandedIDs: 36fbffff9a5a00009e5a0000d05a0000165b00003a5b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -473,22 +473,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Asset Packs/Card Battler Assets/Art/Card Art/Characters
+    - Assets/Cards
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Asset Packs/Card Battler Assets/Art/Card Art/Characters
+  - Assets/Cards
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/prometeo/GitHub/LifeMatter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c26c0000
-    m_LastClickedID: 27842
-    m_ExpandedIDs: 000000001a690000546c0000e06c00003a6d0000ae6d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 84}
+    m_SelectedIDs: 3a620000
+    m_LastClickedID: 25146
+    m_ExpandedIDs: 000000005e5d0000845d0000865d0000885d00008a5d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,7 +516,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 518.04474}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 153
@@ -632,7 +632,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
       y: 21
       width: 736.5
       height: 346
-    m_Scale: {x: 0.6796296, y: 0.6796296}
+    m_Scale: {x: 0.64074075, y: 0.64074075}
     m_Translation: {x: 368.25, y: 173}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -653,12 +653,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -541.83923
-      y: -254.55042
-      width: 1083.6785
-      height: 509.10083
+      x: -574.7254
+      y: -270
+      width: 1149.4508
+      height: 540
     m_MinimalGUI: 1
-  m_defaultScale: 0.6796296
+  m_defaultScale: 0.64074075
   m_LastWindowPixelSize: {x: 1473, y: 734}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -699,8 +699,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -98, y: -26}
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -891,9 +891,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.19813699, y: -1.4813651, z: 0.87472475}
+    m_Target: {x: -0.3485172, y: -8.526234, z: 1.1227484}
     speed: 2
-    m_Value: {x: -0.19813699, y: -1.4813651, z: 0.87472475}
+    m_Value: {x: -0.3485172, y: -8.526234, z: 1.1227484}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 5, y: 5}
@@ -940,13 +940,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.56695443, y: -0.007496125, z: 0.0019215015, w: 0.8237164}
+    m_Target: {x: 0.6693252, y: -0.0071788295, z: 0.0028854436, w: 0.74293643}
     speed: 2
-    m_Value: {x: 0.5657179, y: -0.0025514897, z: -0.0014840642, w: 0.82459366}
+    m_Value: {x: 0.66932166, y: -0.007178792, z: 0.0028854285, w: 0.74293256}
   m_Size:
-    m_Target: 2.452661
+    m_Target: 5.507269
     speed: 2
-    m_Value: 2.2460418
+    m_Value: 5.507269
   m_Ortho:
     m_Target: 0
     speed: 2
