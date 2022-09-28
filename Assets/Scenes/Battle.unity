@@ -1096,6 +1096,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &64048109
 Transform:
   m_ObjectHideFlags: 0
@@ -3155,6 +3158,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &291400511
 Transform:
   m_ObjectHideFlags: 0
@@ -3387,6 +3393,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!65 &344588975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5650,6 +5659,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &603448066
 Transform:
   m_ObjectHideFlags: 0
@@ -6701,6 +6713,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &734893742
 Transform:
   m_ObjectHideFlags: 0
@@ -8760,6 +8775,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &939232169
 Transform:
   m_ObjectHideFlags: 0
@@ -10507,6 +10525,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &1150223554
 Transform:
   m_ObjectHideFlags: 0
@@ -12454,6 +12475,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &1439108279
 Transform:
   m_ObjectHideFlags: 0
@@ -17328,6 +17352,9 @@ MonoBehaviour:
   whatIsDesktop:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlacement:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &2120467972
 Transform:
   m_ObjectHideFlags: 0
