@@ -38,7 +38,7 @@ public class Card : MonoBehaviour
         theCol = GetComponent<Collider>();
     }
 
-    private void SetupCard()
+    public void SetupCard()
     {
         currentHP = cardSO.currentHP;
         attackPower = cardSO.attackPower;

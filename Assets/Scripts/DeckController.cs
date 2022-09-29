@@ -17,6 +17,8 @@ public class DeckController : MonoBehaviour
 
     private List<CardScriptableObject> activeCards = new List<CardScriptableObject>();
 
+    public Card cardToDraw;
+
     void Start()
     {
         SetupDeck();
@@ -24,7 +26,10 @@ public class DeckController : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            DrawCardToHand();
+        }
     }
 
 
@@ -35,6 +40,7 @@ public class DeckController : MonoBehaviour
         tempDeck.AddRange(deckToUse);
 
         int iterations = 0;
+
         while(tempDeck.Count > 0 && iterations < 300)
         {
             int selected = Random.Range(0, tempDeck.Count);
@@ -43,5 +49,19 @@ public class DeckController : MonoBehaviour
 
             iterations++;
         }
+    }
+
+    public void DrawCardToHand()
+    {
+        if (activeCards.Count == 0)
+        {
+            SetupDeck();
+        }
+
+        Card newCard = Instantiate(cardToDraw, transform.position, transform.rotation);
+        newCard.cardSO = activeCards[0];
+        newCard.SetupCard();
+
+        activeCards.RemoveAt(0);
     }
 }
