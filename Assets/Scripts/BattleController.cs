@@ -14,10 +14,14 @@ public class BattleController : MonoBehaviour
     public int startingMana = 1, maxMana = 11;
     public int playerMana;
 
+    public int startingCardsAmount = 5;
+
     void Start()
     {
         playerMana = startingMana;
         UIController.instance.SetPlayerManaText(playerMana);
+
+        DeckController.instance.DrawMultipleCards(startingCardsAmount);
     }
 
     void Update()
