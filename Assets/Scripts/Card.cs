@@ -170,4 +170,18 @@ public class Card : MonoBehaviour
 
         MoveToPoint(theHC.cardPositions[handPos], theHC.minPos.rotation);
     }
+
+    public void DamageCard(int damageAmount)
+    {
+        currentHP -= damageAmount;
+
+        if (currentHP <= 0)
+        {
+            currentHP = 0;
+
+            assignedPlace.activeCard = null;
+
+            Destroy(gameObject);
+        }
+    }
 }

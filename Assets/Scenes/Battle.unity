@@ -889,6 +889,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2754199634444621269, guid: f0b3db73cb33640ae83908e4009e528b,
         type: 3}
+      propertyPath: cardSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9122e7a3ef34adebac6e7a4e8eb3c1,
+        type: 2}
+    - target: {fileID: 2754199634444621269, guid: f0b3db73cb33640ae83908e4009e528b,
+        type: 3}
       propertyPath: assignedPlace
       value: 
       objectReference: {fileID: 1211955987}
@@ -3255,6 +3261,7 @@ MonoBehaviour:
   - {fileID: 839657196}
   - {fileID: 944937025}
   - {fileID: 428901438}
+  timeBetweenAttacks: 0.25
 --- !u!4 &2102629833
 Transform:
   m_ObjectHideFlags: 0
