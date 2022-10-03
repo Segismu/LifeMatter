@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardSO: {fileID: 11400000, guid: 979a2e635d875462a8ba116754492162, type: 2}
+  isPlayer: 1
   currentHP: 5
   attackPower: 5
   manaCost: 5

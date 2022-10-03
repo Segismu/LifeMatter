@@ -8,6 +8,8 @@ public class Card : MonoBehaviour
 {
     public CardScriptableObject cardSO;
 
+    public bool isPlayer;
+
     public int currentHP, attackPower, manaCost;
 
     public TMP_Text hpText, attackText, costText, nameText, actionText, loreText;
@@ -33,6 +35,13 @@ public class Card : MonoBehaviour
 
     void Start()
     {
+        if(targetPoint == Vector3.zero)
+        {
+            targetPoint = transform.position;
+            targetRot = transform.rotation;
+        }
+            
+
         SetupCard();
         theHC = FindObjectOfType<HandController>();
         theCol = GetComponent<Collider>();
@@ -80,7 +89,7 @@ public class Card : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0) && justPressed == false)
             {
-                if (Physics.Raycast(ray, out hit, 100f, whatIsPlacement))
+                if (Physics.Raycast(ray, out hit, 100f, whatIsPlacement) && BattleController.instance.currentPhase == BattleController.TurnOrder.playerActive)
                 {
                     CardPlacePoint selectedPoint = hit.collider.GetComponent<CardPlacePoint>();
 
@@ -115,7 +124,7 @@ public class Card : MonoBehaviour
                 else
                 {
                     ReturnToHand();
-                }    
+                }
             }
         }
 
@@ -130,7 +139,7 @@ public class Card : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (inHand)
+        if (inHand && isPlayer)
         {
             MoveToPoint(theHC.cardPositions[handPos] + new Vector3(0f, 1f, .5f), Quaternion.identity);
         }
@@ -138,7 +147,7 @@ public class Card : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if(inHand)
+        if(inHand && isPlayer)
         {
             MoveToPoint(theHC.cardPositions[handPos], theHC.minPos.rotation);
         }
@@ -146,7 +155,7 @@ public class Card : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (inHand)
+        if (inHand && BattleController.instance.currentPhase == BattleController.TurnOrder.playerActive && isPlayer)
         {
             isSelected = true;
             theCol.enabled = false;
