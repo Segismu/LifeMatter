@@ -53,9 +53,10 @@ public class Card : MonoBehaviour
         attackPower = cardSO.attackPower;
         manaCost = cardSO.manaCost;
 
-        hpText.text = currentHP.ToString();
-        attackText.text = attackPower.ToString();
-        costText.text = manaCost.ToString();
+        //hpText.text = currentHP.ToString();
+        //attackText.text = attackPower.ToString();
+        //costText.text = manaCost.ToString();
+        UpdateCardDisplay();
 
         nameText.text = cardSO.cardName;
         actionText.text = cardSO.actionDescription;
@@ -183,5 +184,14 @@ public class Card : MonoBehaviour
 
             Destroy(gameObject);
         }
+
+        UpdateCardDisplay();
+    }
+
+    public void UpdateCardDisplay()
+    {
+        hpText.text = currentHP.ToString();
+        attackText.text = attackPower.ToString();
+        costText.text = manaCost.ToString();
     }
 }

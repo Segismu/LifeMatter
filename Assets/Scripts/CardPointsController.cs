@@ -33,6 +33,7 @@ public class CardPointsController : MonoBehaviour
     IEnumerator PlayerAttackCo()
     {
         yield return new WaitForSeconds(timeBetweenAttacks);
+
         for (int i = 0; i < playerCardPoints.Length; i++)
         {
             if (playerCardPoints[i].activeCard != null)

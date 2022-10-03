@@ -15,8 +15,6 @@ public class BattleController : MonoBehaviour
     public int playerMana;
     private int currentPlayerMaxMana;
 
-    public int amountToSpend = 2;
-
     public int startingCardsAmount = 5;
     public int cardsToDrawPerTurn = 1;
 

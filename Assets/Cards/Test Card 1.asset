@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: 
   actionDescription: -5 Sat at entering your life.
   cardLore: Tasty sugar.
-  currentHP: 1
+  currentHP: 2
   attackPower: 10
   manaCost: 5
   characterSprite: {fileID: 21300000, guid: 28ab477fda36bcc49924dd1056453ff8, type: 3}

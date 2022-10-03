@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Wife
   actionDescription: +1 Sat per turn.
   cardLore: Faster.
-  currentHP: 3
+  currentHP: 10
   attackPower: 7
   manaCost: 1
   characterSprite: {fileID: 21300000, guid: 80cc4eac3bc7411468fda53556366da3, type: 3}
